@@ -32,7 +32,7 @@ import { Router, Route, Switch } from "react-router";
 
 ## Components
 
-[] TextInput.js
+[x] TextInput.js
 [] ClassCard.js - card to display classes
 [] Header.js - Josh
 [] Footer.js - Footer
