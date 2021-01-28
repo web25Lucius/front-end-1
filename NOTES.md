@@ -23,11 +23,11 @@ add to cypress.json folder
 import { Router, Route, Switch } from "react-router";
 
 ## Rhiannon
-[] new user form 
+[] NewUserForm.js - new user form 
 [] search classes - client uses
 
 ## Josh
-[] login form
+[] LoginForm.js - login form
 [] add / delete class form - instructor uses
 
 ## Components

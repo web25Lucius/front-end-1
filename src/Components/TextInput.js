@@ -1,4 +1,4 @@
-import './App.css'; // fix path 
+import '../App.css'; // fix path 
 import React from 'react';
 
 
