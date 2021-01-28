@@ -34,8 +34,8 @@ import { Router, Route, Switch } from "react-router";
 
 [] TextInput.js
 [] ClassCard.js - card to display classes
-[] Header.js
-[] Footer.js
+[] Header.js - Josh
+[] Footer.js - Footer
 [] Classes.js - contain the class cards
 
 ## Routes
