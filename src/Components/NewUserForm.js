@@ -4,6 +4,8 @@ import axios from 'axios';
 import * as yup from 'yup';
 import { useHistory } from 'react-router-dom';
 // import schema from './formSchema.js';
+// import Header from './Header';
+// import Footer from './Footer';
 
 
 const initialNewUserFormValues = {
@@ -104,6 +106,8 @@ function NewUserForm (props) {
 
   return (
     <>
+        {/* <Header/> */}
+
         <TextInput
           type="text"
           name="personName"
@@ -156,6 +160,8 @@ function NewUserForm (props) {
         <br/>
         <br/>
         <button  id="submitBtn" disabled={newUserDisabled}>Submit</button> 
+
+      {/* <Footer/> */}
 
     </>
   )
