@@ -25,8 +25,6 @@ const initialNewUserFormErrors = {
 };
 
 
-
-
 function NewUserForm (props) {
   const { user, setUser, newUserFormValues, setNewUserFormValues, newUserFormErrors, setNewUserFormErrors, newUserDisabled, setNewUserDisabled } = props
 
@@ -141,7 +139,7 @@ function NewUserForm (props) {
         <TextInput
           type="text"
           name="password"
-          placeholder=" enter your new password "
+          placeholder=" enter new password "
           onChange={inputChange} 
           value={newUserFormValues.password}
           label={"New Password"}
