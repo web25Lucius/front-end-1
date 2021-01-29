@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
 import NewUserForm from './Components/NewUserForm';
+import LandingPage from './Components/LandingPage';
 
 
   // -------------------------- INITIAL STATES ------------------------
@@ -10,8 +11,9 @@ import NewUserForm from './Components/NewUserForm';
   const initialNewUserFormValues = {
     personName: '',
     email: '',
-    age: '',
+    age: '', // checkbox / false
     password: '',
+    isInstructor: false
   };
   const initialNewUserFormErrors = {
     personName: '',
@@ -26,6 +28,7 @@ import NewUserForm from './Components/NewUserForm';
     {
       className: "Yoga On The Beach",
       classType: "Yoga",
+      classDate: "Monday",
       startTime: "10:00am",
       duration: 1, // hours
       intensity: "low",
@@ -54,7 +57,7 @@ function App() {
     <div className="App">
 
       {/* Route to Create New User Form */}
-
+        <LandingPage />
         <NewUserForm 
           user={user} 
           setUser={setUser} 
